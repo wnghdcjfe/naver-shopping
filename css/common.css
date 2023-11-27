@@ -1,0 +1,77 @@
+body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fieldset, legend, input, textarea, button, select {
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: none;
+}
+body, input, textarea, select, button, table {
+  font-family: -apple-system, BlinkMacSystemFont, HelveticaNeue, AppleSDGothicNeo, sans-serif;
+  font-size: 14px;
+  line-height: 1.25em;
+}
+html, body {
+  height: 100%;
+}
+body {
+  background-color: #e9ecef;
+}
+img, fieldset {
+  border: 0;
+}
+ul, ol {
+  list-style: none;
+}
+em, address {
+  font-style: normal;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+}
+a:active {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+table {
+  border-collapse: collapse;
+}
+hr {
+  display: none !important;
+}
+button {
+  border: none;
+  background-color: transparent;
+  color: #000000;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+svg {
+  display: inline-block;
+  vertical-align: top;
+}
+legend,
+.blind {
+  overflow: hidden;
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+.full_height {
+  width: auto !important;
+  height: 100% !important;
+}
+@media screen and (min-width: 1152px) {
+  body, input, textarea, select, button, table {
+    font-family: '나눔고딕', NanumGothic, '맑은 고딕', 'Malgun Gothic', '돋움', Dotum, Helvetica, 'Apple SD Gothic Neo', sans-serif;
+    font-size: 12px;
+    -webkit-font-smoothing: subpixel-antialiased;
+  }
+  body {
+    background-color: initial;
+  }
+  #content {
+    position: relative;
+    z-index: 20;
+  }
+}

@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Ffesta\u002F[...paths]","\u002Fhome\u002F[shoppingHomeDemo]\u002F[deviceType]","\u002Flogistics\u002Fhome\u002F[deviceType]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
